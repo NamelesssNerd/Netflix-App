@@ -18,7 +18,7 @@ const MainNevagation = () => {
             <Stack.Navigator>
                 <Stack.Screen name={NevagationStrings.Welcome} component={Welcome} options={{ headerShown: false }} />
                 <Stack.Screen name={NevagationStrings.Login} component={Login} options={{ headerShown: false }} />
-                <Stack.Screen name={NevagationStrings.User} component={UserChoose} options={{ headerShown: false }} />
+                <Stack.Screen name={NevagationStrings.UserChoose} component={UserChoose} options={{ headerShown: false }} />
                 <Stack.Screen name={NevagationStrings.Home} component={Home} options={{ headerShown: false }} />
                 <Stack.Screen name={NevagationStrings.Games} component={Games} options={{ headerShown: false }} />
                 <Stack.Screen name={NevagationStrings.News} component={News} options={{ headerShown: false }} />

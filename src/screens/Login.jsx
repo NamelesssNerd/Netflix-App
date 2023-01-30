@@ -3,9 +3,8 @@ import React from 'react'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 import NevagationStrings from '../constant/NevagationStrings'
 const Login = ({ navigation }) => {
-
     const returnHome = () => {
-        navigation.navigate(NevagationStrings.User)
+        navigation.navigate(NevagationStrings.UserChoose)
     }
     return (
         <View style={{ flex: 1, alignItems: "center", backgroundColor: "black" }}>

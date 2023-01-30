@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 
-const HomeImage = () => {
+const HomeImage = ({ imagelink }) => {
     return (
         <View style={{ width: "100%", height: 480, position: "relative" }}>
             <View style={{ backgroundColor: "black", width: "100%", }}>
-                <Image source={{ uri: "http://image.tmdb.org/t/p/w500/kuf6dutpsT0vSVehic3EZIqkOBt.jpg" }} style={{
+                <Image source={{ uri: imagelink }} style={{
                     width: "100%",
                     height: 480,
                     resizeMode: "cover"
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
         height: 23
     },
     touch: {
-        paddingTop:8,
+        paddingTop: 8,
         height: 56,
         display: "flex",
         alignItems: "center",

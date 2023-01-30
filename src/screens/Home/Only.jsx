@@ -25,21 +25,21 @@ const TV = ({ mainTitle, tdata }) => {
 const styles = StyleSheet.create({
     imm: {
         width: "100%",
-        height: 150,
+        height: 350,
     },
     box: {
         overflow: "hidden",
         marginTop: 3,
         marginLeft: 5,
         borderRadius: 5,
-        height: 150,
-        width: 110,
+        height: 350,
+        width: 170,
     },
     touchables: {
         marginTop: 3,
         borderRadius: 5,
         marginLeft: 10,
-        width: 110,
+        width: 170,
     }
 })
 export default TV

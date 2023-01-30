@@ -5,8 +5,8 @@ const Welcome = ({ navigation }) => {
 
     useEffect(() => {
         setTimeout(() => {
-            navigation.navigate(NevagationStrings.Home)
-        }, 0);
+            navigation.navigate(NevagationStrings.Login)
+        }, 3000);
     }, [])
     return (
         <View style={{ flex: 1 }}>

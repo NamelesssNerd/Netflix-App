@@ -5,6 +5,7 @@ export default {
     Laugh: "Laugh",
     Downloads: "Downloads",
     Welcome: "Welcome",
-    User: "User",
+    UserChoose: "User",
     Login: "Login",
+    Bottom: "Bottom"
 }
