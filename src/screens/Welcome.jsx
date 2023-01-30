@@ -4,10 +4,9 @@ import NevagationStrings from '../constant/NevagationStrings'
 const Welcome = ({ navigation }) => {
 
     useEffect(() => {
-
         setTimeout(() => {
-            navigation.navigate(NevagationStrings.Login)
-        }, 3000);
+            navigation.navigate(NevagationStrings.Home)
+        }, 0);
     }, [])
     return (
         <View style={{ flex: 1 }}>
