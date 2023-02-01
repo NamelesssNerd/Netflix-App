@@ -19,6 +19,3 @@
 <img width="400"  src="https://user-images.githubusercontent.com/87481819/216015656-8b7b9248-30ad-4a22-bb9a-2d99786cc12d.jpg" />
 </p>
 
-## Preview Here
-
-https://user-images.githubusercontent.com/87481819/215489409-6211c5aa-6776-46a7-a102-0828f6fc5b57.mp4
